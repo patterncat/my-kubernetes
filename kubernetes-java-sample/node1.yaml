@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Node
+metadata:
+  creationTimestamp: 2015-11-10T12:48:15Z
+  labels:
+    kubernetes.io/hostname: kube-node1.example.com
+  name: kube-node1.example.com
+  resourceVersion: "36661"
+  selfLink: /api/v1/nodes/kube-node1.example.com
+  uid: 4fa172ae-87a9-11e5-916b-525400efc1a4
+spec:
+  externalID: kube-node1.example.com
+status:
+  addresses:
+  - address: 192.168.124.11
+    type: LegacyHostIP
+  capacity:
+    cpu: "1"
+    memory: 1017096Ki
+    pods: "40"
+  conditions:
+  - lastHeartbeatTime: 2015-12-23T16:40:08Z
+    lastTransitionTime: 2015-12-23T16:03:37Z
+    reason: kubelet is posting ready status
+    status: "True"
+    type: Ready
+  nodeInfo:
+    bootID: a49b6199-b0be-4b2b-9301-aa4f649827eb
+    containerRuntimeVersion: docker://1.8.2
+    kernelVersion: 3.10.0-229.20.1.el7.x86_64
+    kubeProxyVersion: v1.0.3.34+b9a88a7d0e357b
+    kubeletVersion: v1.0.3.34+b9a88a7d0e357b
+    machineID: f012f64aba23dd48ab21d843d8102f59
+    osImage: Employee SKU
+    systemUUID: F012F64A-BA23-DD48-AB21-D843D8102F59

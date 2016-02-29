@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: httpd-rc
+spec:
+  replicas: 1
+  selector:
+    app: httpd
+  template:
+    metadata:
+      labels:
+        app: httpd
+    spec:
+      containers:
+      - name: httpd
+        image: itwb/httpd-kube
+        ports:
+          - name: http
+            containerPort: 80

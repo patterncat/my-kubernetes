@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: tomcat8-rc
+spec:
+  replicas: 2
+  selector:
+    app: tomcat8
+  template:
+    metadata:
+      labels:
+        app: tomcat8
+    spec:
+      containers:
+      - name: tomcat8
+        image: rhel7-tomcat8
+        ports:
+          - name: tomcat8
+            containerPort: 8080

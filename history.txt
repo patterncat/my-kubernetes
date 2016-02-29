@@ -1,0 +1,920 @@
+    1  lvdisplay 
+    2  ls
+    3  clear
+    4  ifconfig 
+    5  ifconfig eth0
+    6  ifconfig docker0
+    7  clear
+    8  kubectl get no
+    9  sudo systemctl status kube-apiserver.service 
+   10  reboot
+   11  kubectl get po
+   12  kubectl get no
+   13  clear
+   14  kubectl get no
+   15  kubectl get -w no
+   16  kubectl get no
+   17  clear
+   18  ls
+   19  cd dockerfiles/
+   20  ls
+   21  kubectl get -w no
+   22  kubectl get no
+   23  kubectl get -w no
+   24  kubectl get no
+   25  shutdown -h no
+   26  shutdown -h now
+   27  clear
+   28  export PS1="\u@\h \w> "
+   29  clear
+   30  docker ps -a
+   31  clear
+   32  vim dockerfiles/kubernetes-java-sample/app-mysql-service.yaml 
+   33  vi dockerfiles/kubernetes-java-sample/app-mysql-service.yaml 
+   34  vi dockerfiles/kubernetes-java-sample/app-mysql-pod.yaml 
+   35  clear
+   36  vi dockerfiles/kubernetes-java-sample/app-mysql-pod.yaml 
+   37  vi dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+   38  vi dockerfiles/kubernetes-java-sample/wildfly-pod-hc-http.yaml 
+   39  cd dockerfiles/kubernetes-java-sample/
+   40  ls
+   41  cat wildfly-rc.yaml 
+   42  clear
+   43  ls
+   44  cp app-mysql-service.yaml  wildfly-service.yaml
+   45  vi wildfly-service.yaml 
+   46  clear
+   47  ls
+   48  vi wildfly-service.yaml 
+   49  kubectl create -f wildfly-service.yaml 
+   50  kubectl get se
+   51  kubectl delete -f wildfly-service.yaml 
+   52  kubectl get se
+   53  clear
+   54  vi wildfly-service.yaml 
+   55  kubectl create -f wildfly-service.yaml 
+   56  kubectl get se
+   57  kubectl describe 
+   58  kubectl describe service
+   59  kubectl describe services
+   60  kubectl describe service wildfly-service 
+   61  kubectl get se
+   62  kubectl get service
+   63  kubectl get services
+   64  kubectl delete -f wildfly-service.yaml 
+   65  kubectl get services
+   66  clear
+   67  vi wildfly-service.yaml 
+   68  cd
+   69  ls
+   70  cd dockerfiles/
+   71  ls
+   72  cd
+   73  clear
+   74  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   75  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   76  kubectl get services
+   77  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   78  kubectl get services
+   79  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   80  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   81  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   82  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   83  kubectl get services
+   84  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+   85  kubectl get rc
+   86  kubectl get po
+   87  kubectl get services
+   88  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+   89  kubectl get po
+   90  kubectl get services
+   91  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   92  kubectl get services
+   93  clear
+   94  kubectl get services
+   95  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   96  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+   97  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+   98  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+   99  kubectl get services
+  100  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  101  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  102  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  103  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  104  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  105  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  106  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  107  kubectl get services
+  108  kubectl describe services
+  109  kubectl describe service wildfly-service 
+  110  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  111  kubectl get po
+  112  curl 10.254.111.158
+  113  curl 10.254.111.158:8080
+  114  curl http://10.254.111.158:8080
+  115  ping 10.254.111.158
+  116  kubectl describe po wildfly-rc-870lx 
+  117  curl http://10.20.60.4:8080
+  118  clear
+  119  curl http://10.254.111.158:8080
+  120  kubectl describe service wildfly-service 
+  121  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  122  clear
+  123  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  124  pwd
+  125  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  126  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  127  vi dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  128  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.yaml 
+  129  kubectl get svc wildfly-service -o json
+  130  ping 10.254.153.222
+  131  vi /etc/kubernetes/apiserver 
+  132  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  133  kubectl get po
+  134  kubectl get pod wildfly-rc-lvfpa -o json
+  135  kubectl get se
+  136  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.json
+  137  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yam
+  138  clear
+  139  vi dockerfiles/kubernetes-java-sample/wildfly-service.json
+  140  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  141  kubectl get se
+  142  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  143  kubectl get rc
+  144  kubectl get po
+  145  kubectl get po wildfly-rc-649i5 
+  146  kubectl get po wildfly-rc-649i5 -o json
+  147  kubectl get po wildfly-rc-tm5cq -o json
+  148  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  149  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  150  vi dockerfiles/kubernetes-java-sample/wildfly-service.json
+  151  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  152  kubectl get svc wildfly-service -o json
+  153  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  154  journalctl -b -l -u kube-proxy
+  155  atomic host status 
+  156  cat /etc/kubernetes/controller-manager 
+  157  shutdown -h now
+  158  export PS1="\u@\h \w> "
+  159  rm -f *.tar
+  160  docker rm -v $(docker ps -a -q -f status=exited)
+  161  clear
+  162  kubectl get po
+  163  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  164  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  165  clar
+  166  clear
+  167  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  168  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  169  kubectl get po 
+  170  kubectl get po wildfly-rc-adz23 -o json
+  171  kubectl get po 
+  172  kubectl delete pod wildfly-rc-adz23 
+  173  kubectl get po 
+  174  kubectl get service wildfly-service -o json
+  175  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  176  docker rm -v $(docker ps -a -q -f status=exited)
+  177  clear
+  178  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  179  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  180  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  181  shutdown -h now
+  182  kubectl get po
+  183  clear
+  184  vi  dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  185  cp  dockerfiles/kubernetes-java-sample/wildfly-service.json  dockerfiles/kubernetes-java-sample/wildfly-service.json.working
+  186  vi  dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  187  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.
+  188  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  189  vi  dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  190  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  191  vi  dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  192  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  193  kubectl create -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  194  kubectl get po
+  195  shutdown -h now
+  196  kubectl get po
+  197  kubectl get no
+  198  kubectl get po
+  199  kubectl get no
+  200  kubectl get po
+  201  kubectl get no
+  202  kubectl get po
+  203  kubectl get po wildfly-rc-msrsr 
+  204  kubectl get desc wildfly-rc-msrsr 
+  205  kubectl get describe wildfly-rc-msrsr 
+  206  kubectl get get wildfly-rc-msrsr -o json
+  207  kubectl get wildfly-rc-msrsr -o json
+  208  kubectl get po wildfly-rc-msrsr 
+  209  kubectl get po wildfly-rc-msrsr -o json
+  210  docker ps -a
+  211  kubectl get po wildfly-rc-msrsr 
+  212  kubectl get po -w
+  213  kubectl get p
+  214  kubectl get po
+  215  ping 192.168.124.11
+  216  kubectl get no
+  217  dat
+  218  kubectl logs wildfly-rc-msrsr 
+  219  kubectl get po
+  220  kubectl get po wildfly-rc-msrsr -o json
+  221  kubectl get po
+  222  kubectl get po wildfly-rc-0e399 -o json
+  223  kubectl get po wildfly-rc-0e399 -o json | less
+  224  clear
+  225  kubectl get po wildfly-rc-0e399 -o json
+  226  kubectl get po
+  227  kubectl logs wildfly-rc-0e399 
+  228  kubectl logs wildfly-rc-o0ygo 
+  229  curl http://192.168.100.11:30019
+  230  curl http://192.168.100.12:30019
+  231  docker version
+  232  df -kh
+  233  clear
+  234  docker pull rhscl_beta/nginx-16-rhel7
+  235  docker pull jboss-webserver-3/tomcat8-openshift
+  236  df -kh
+  237  clear
+  238  docker images
+  239  docker ps -a
+  240  docker exec -it d38054ab06e2 /bin/bash
+  241  docker run --name=mynginx -it d38054ab06e2 /bin/bash
+  242  docker ps
+  243  docker ps -a
+  244  docker start -ai mynginx
+  245  docker ps -a
+  246  docker ps 
+  247  docker start  mynginx
+  248  docker ps 
+  249  docker inspect mynginx 
+  250  docker exec -it mynginx /bin/bash
+  251  docker ps -a
+  252  docker ps
+  253  clear
+  254  docker exec -it mynginx /bin/bash
+  255  docker stop mynginx 
+  256  docker rm mynginx 
+  257  docker ps -a
+  258  clear
+  259  docker run --name=mynginx -p 9000:80 -it d38054ab06e2 /bin/bash
+  260  docker ps
+  261  docker start mynginx 
+  262  netstat -tlunp
+  263  ifconfig 
+  264  docker inspect mynginx 
+  265  curl http://10.20.75.6
+  266  curl http://10.20.75.6:443
+  267  curl https://10.20.75.6:443
+  268  docker exec -it mynginx /bin/bash
+  269  docker stop mynginx 
+  270  docker run --name=mynginx -d -p 9000:80 d38054ab06e2 
+  271  docker rm mynginx 
+  272  docker run --name=mynginx -d -p 9000:80 d38054ab06e2 
+  273  docker ps
+  274  nmap
+  275  curl http://localhost
+  276  curl http://localhost:9000
+  277  docker stop mynginx 
+  278  docker rm mynginx 
+  279  docker images 
+  280  docker run --name=myjws3 -d  fc44453d1eca
+  281  docker ps
+  282  docker inspect myjws3
+  283  docker ps
+  284  curl http://10.20.75.8:8080
+  285  curl -o http://10.20.75.8:8080
+  286  curl -o x.html http://10.20.75.8:8080
+  287  ls
+  288  curl http://10.20.75.8:8080
+  289  docker exec -it myjws3 /bin/bash
+  290  curl http://10.20.75.8:8080/sdsd
+  291  docker stop myjws3 
+  292  docker rm myjws3 
+  293  docker run --name=myjws3 -p 9000:8080 -d  fc44453d1eca
+  294  docker exec -it myjws3 /bin/bash
+  295  docker stop myjws3 
+  296  docker rm myjws3 
+  297  shutdown -h now
+  298  history | grep yum
+  299  ls
+  300  cd dockerfiles/
+  301  ls
+  302  cat Dockerfile 
+  303  clear
+  304  ls
+  305  docker images
+  306  docker save d38054ab06e2 > nginx-rhel7.tar
+  307  gzip nginx-rhel7.tar 
+  308  ls -la
+  309  ls -lah
+  310  clear
+  311  docker images
+  312  docker save fc44453d1eca > jws3.tar
+  313  ls
+  314  rm -f nginx-rhel7.tar.gz 
+  315  rm -f jws3.tar 
+  316  docker save fc44453d1eca > jws3.tar
+  317  rm -f jws3.tar 
+  318  df -kh
+  319  docker save d38054ab06e2 > nginx-rhel7.tar
+  320  gzip nginx-rhel7.tar 
+  321  rm -f nginx-rhel7.tar.gz 
+  322  ls
+  323  docker images
+  324  docker rmi 0388a5a8af5a d38054ab06e2 c4f590bbcbe3 578f02676897 
+  325  clear
+  326  docker images
+  327  docker rmi c4f590bbcbe3
+  328  docker rmi c4f590bbcbe3 -f
+  329  docker imahes
+  330  docker images
+  331  clear
+  332  docker save c4f590bbcbe3 > jws3.tar
+  333  gzip jws3.tar 
+  334  docker images
+  335  shutdown -h now
+  336  docker version
+  337  shutdown -h now
+  338  ls
+  339  rm -f jws3.tar.gz 
+  340  atomic run rhel7/cockpit-ws
+  341  docker ps
+  342  docker images
+  343  netstat -tlunp
+  344  ifconfig 
+  345  systemctl status cockpit
+  346  docker ps
+  347  rpm -qa
+  348  rpm -qa | grep cockpit
+  349  systemctl status cockpit-shell
+  350  systemctl status cockpit
+  351  systemctl list-units | grep kube
+  352  systemctl list-units | grep cock
+  353  kubectl get po
+  354  kubectl get rc
+  355  history 
+  356  history kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  357  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-rc.yaml 
+  358  kubectl delete -f dockerfiles/kubernetes-java-sample/wildfly-service.json 
+  359  kubectl get rc
+  360  kubectl get se
+  361  kubectl get po
+  362  shutdown -h now
+  363  docker images
+  364  clear
+  365  docker pull rhel6.5
+  366  docker imags
+  367  docker images
+  368  docker save 17352558d512 > rhel65.tar
+  369  gzip rhel65.tar 
+  370  ls -lah
+  371  clear
+  372  docker pull rhel6.3
+  373  clear
+  374  docker pull rhel6:6.3
+  375  history | grep load
+  376  shutdown -h now
+  377  kubectl get se
+  378  kubectl get po
+  379  kubectl get rc
+  380  atomic host status
+  381  atomic host upgrade
+  382  atomic host status
+  383  systemctl reboot
+  384  clear
+  385  kubectl get po
+  386  kubectl get no
+  387  systemctl status kube-apiserver.service 
+  388  clear
+  389  systemctl status kube-proxy.service 
+  390  systemctl status kube-controller-manager.service 
+  391  clear
+  392  systemctl status kubelet.service 
+  393  systemctl status kube-scheduler.service 
+  394  shutdown -h now
+  395  rpm -qa | grep kuber
+  396  netstat -tulnp
+  397  kubectl get no
+  398  shutdown -h now
+  399  clear
+  400  ifconfig 
+  401  clear
+  402  kubectl get no
+  403  kubectl get po
+  404  kubectl get no
+  405  clear
+  406  docker images
+  407  systemctl status cockpit
+  408  systemctl status cockpit-ws
+  409  history | grep cockpit
+  410  docker images
+  411  atomic run rhel7/cockpit-ws
+  412  history | grep cockpit
+  413  systemctl status cockpit-ws
+  414  systemctl status cockpit
+  415  netstat -tulnp
+  416  ifconfig 
+  417  ifconfig eth0
+  418  docker ps
+  419  atomic stop  rhel7/cockpit-ws
+  420  history 
+  421  history > history.txt
+  422  vi history.txt 
+  423  rpm
+  424  rpm -qa | grep cockpit
+  425  systemctl status cockpit-bridge 
+  426  systemctl status cockpit-shell
+  427  rpm -ql cockpit-bridge
+  428  rpm -ql cockpit-shell
+  429  rpm -ql cockpit-shell | less
+  430  reboot
+  431  systemctl status cockpit-shell
+  432  systemctl start cockpit-shell
+  433  systemctl start cockpit
+  434  clear
+  435  atomic run rhel7/cockpit-ws
+  436  journalctl 
+  437  journalctl -f
+  438  reboot
+  439  atomic run rhel7/cockpit-ws
+  440  docker log 
+  441  docker logs
+  442  docker ps
+  443  docker logs boring_bartik 
+  444  atomic host rollback
+  445  systemctl reboot
+  446  shutdown -h now
+  447  ls
+  448  ifconfig 
+  449  vi /etc/kubernetes/config 
+  450  vi /etc/kubernetes/kubelet 
+  451  vi /etc/kubernetes/proxy 
+  452  vi /etc/kubernetes/apiserver 
+  453  clear
+  454  ls
+  455  cd dockerfiles/
+  456  ls
+  457  cd
+  458  pwd
+  459  export PS1="\u@\h \w> "
+  460  clear
+  461  cd
+  462  ls
+  463  ls mydbcontainer/
+  464  cat flannel-config.json 
+  465  clear
+  466  ls
+  467  kubectl get po
+  468  docker images
+  469  clear
+  470  history | grep kubectl
+  471  history | grep cockpit
+  472  clear
+  473  atomic run rhel7/cockpit-ws
+  474  docker images
+  475  ntpq -p
+  476  rpm -qa | grep ntp
+  477  rpm -qa | grep chrony
+  478  systemctl status chrony
+  479  systemctl status chronyd
+  480  cat /etc/chrony.conf 
+  481  clear
+  482  hostname
+  483  clear
+  484  kubectl get no
+  485  ifconfig 
+  486  ifconfig eth0
+  487  ifconfig flannel.1
+  488  ifconfig docker0
+  489  history | grep cockpit
+  490  atomic run rhel7/cockpit-ws
+  491  clear
+  492  cat /etc/redhat-release 
+  493  docker images
+  494  kubectl get po
+  495  kubectl get no
+  496  docker images
+  497  systemctl status cockpit-ws
+  498  rpm -qa | grep cockpit
+  499  ls
+  500  ls
+  501  docker pull docker pull openshift3/ose-docker-registry
+  502  yum repolist
+  503  clear
+  504  docker images
+  505  docker image
+  506  docker images
+  507  vim /etc/sysconfig/docker
+  508  vi /etc/sysconfig/docker
+  509  ping host1
+  510  systemctl restart docker
+  511  systemctl status docker
+  512  systemctl status docker -l
+  513  docker images
+  514  docker push
+  515  docker tag 6a9fbcf35de9 host1:5000/cockpit-ws
+  516  docker images
+  517  docker push host1:5000/cockpit-ws
+  518  docker images
+  519  docker pull host1:5000/cockpit-ws
+  520  shutdown -h now
+  521  cat /etc/redhat-release 
+  522  atomic host status
+  523  docker images
+  524  ls -lah
+  525  docker save 6a9fbcf35de9 > cockpit-ws.tar
+  526  gzip cockpit-ws.tar 
+  527  ls -lah
+  528  docker images
+  529  ls
+  530  cd dockerfiles/
+  531  ls
+  532  cat Dockerfile 
+  533  cd kubernetes-java-sample/
+  534  ls
+  535  history | grep kubectl
+  536  vi wildfly-rc.yaml 
+  537  vi wildfly-service.json
+  538  vi wildfly-service.json.working 
+  539  kubectl get no
+  540  kubectl desc
+  541  kubectl describe
+  542  kubectl describe no
+  543  kubectl describe no kube-node1
+  544  kubectl get no
+  545  kubectl describe no kube-node2
+  546  kubectl get no
+  547  clear
+  548  kubectl get no
+  549  kubectl describe no kube-node2
+  550  kubectl get no
+  551  kubectl describe no kube-node1
+  552  kubectl get no
+  553  kubectl describe no kube-node1
+  554  kubectl get no
+  555  kubectl describe no kube-node1
+  556  kubectl get no
+  557  kubectl describe no kube-node1
+  558  kubectl get no
+  559  kubectl describe no kube-node1
+  560  kubectl get no
+  561  clear
+  562  atomic host status
+  563  clear
+  564  kubectl describe no kube-node1
+  565  kubectl describe no kube-node2
+  566  clear
+  567  kubectl describe no kube-node1
+  568  kubectl get no
+  569  kubectl 
+  570  kubectl cluster-info
+  571  kubectl logs
+  572  kubectl logs -h
+  573  kubectl get no
+  574  kubectl describe no kube-node2
+  575  kubectl get no
+  576  kubectl describe no kube-node1
+  577  kubectl describe no kube-node2
+  578  kubectl describe no kube-node1
+  579  kubectl describe no kube-node2
+  580  kubectl get no
+  581  kubectl describe no kube-node2
+  582  kubectl describe no kube-node1
+  583  kubectl describe no kube-node2
+  584  kubectl get no
+  585  clear
+  586  ls
+  587  docker images
+  588  docker ps
+  589  docker ps -a
+  590  docker rm -v $(docker ps -a -q -f status=exited)
+  591  clear
+  592  docker ps -a
+  593  docker images
+  594  ls
+  595  ls mydbcontainer/
+  596  ls dockerfiles/
+  597  cat dockerfiles/Dockerfile 
+  598  cat mywebcontainer/Dockerfile 
+  599  clear
+  600  ls
+  601  docker images
+  602  docker rmi 6a9fbcf35de9
+  603  docker rmi 6a9fbcf35de9 -f
+  604  docker rmi 17352558d512 fc44453d1eca 
+  605  clear
+  606  docker images
+  607  docker rmi 6a9fbcf35de9 6a9fbcf35de9
+  608  docker rmi 6a9fbcf35de9 6a9fbcf35de9 -f
+  609  docker rmi -f 6a9fbcf35de9
+  610  docker rmi 6a9fbcf35de9
+  611  docker rmi 6a9fbcf35de9 -f
+  612  clear
+  613  docker images
+  614  df -kh
+  615  lvs
+  616  clear
+  617  kubectl get no
+  618  ls
+  619  mkdir images
+  620  mv cockpit-ws.tar.gz rhel65.tar.gz images/
+  621  mv mydbcontainer images/
+  622  mv mywebcontainer images/
+  623  ls -la images
+  624  rm -f dockerfiles/Dockerfile 
+  625  mv dockerfiles kubernetes
+  626  ls
+  627  ls -la kubernetes/kubernetes-java-sample/
+  628  ls -la kubernetes/kubernetes-java-sample/images/
+  629  clear
+  630  ls
+  631  du -kh images
+  632  ls -la images/
+  633  tar -cvf images.tar images
+  634  gzip images.tar 
+  635  ls -lah
+  636  rm -rf images
+  637  rm -f images.tar.gz 
+  638  ls la
+  639  clear
+  640  ls -l
+  641  df -kh
+  642  clear
+  643  kubectl get po
+  644  kubectl get no
+  645  clear
+  646  cd kubernetes/
+  647  mkdir skydns
+  648  cd skydns/
+  649  wget
+  650  curl apiVersion: v1
+  651  curl https://gist.githubusercontent.com/jamiehannaford/b80465bf7d427b949542/raw/75e7c0ff3fc740ea0f4eb54e5d10753cccf1267b/skydns-svc.yml
+  652  ls
+  653  curl https://gist.githubusercontent.com/jamiehannaford/b80465bf7d427b949542/raw/75e7c0ff3fc740ea0f4eb54e5d10753cccf1267b/skydns-svc.yml > skydns-svc.yaml
+  654  cat skydns-svc.yaml 
+  655  clear
+  656  cat ~/flannel-config.json 
+  657  ifconfig 
+  658  cat skydns-svc.yaml 
+  659  clear
+  660  vi skydns-svc.yaml 
+  661  ls
+  662  curl https://gist.githubusercontent.com/jamiehannaford/850900e2d721a973bc6d/raw/710eade5b8d5a382cdc6d605d6cd2d43fb0c20fb/skydns-rc.yml > skydns-rc.yaml
+  663  vi skydns-rc.yaml 
+  664  ifconfig 
+  665  vi skydns-rc.yaml 
+  666  clear
+  667  kubectl create -f skydns-rc.yaml
+  668  kubectl get se
+  669  kubectl get rc
+  670  vi skydns-rc.yaml 
+  671  vi skydns-svc.yaml 
+  672  kubectl get namespace 
+  673  kubectl create 
+  674  kubectl get namespace 
+  675  kubectl get namespace s
+  676  kubectl get namespaces
+  677  export skydns-PS1="\u@\h \w> "
+  678  history | grep PS1
+  679  export PS1="\u@\h \w> "
+  680  clear
+  681  ls
+  682  touch kube-system-ns.yaml
+  683  vi kube-system-ns.yaml 
+  684  cat skydns-rc.yaml 
+  685  kubectl create -f kube-system-ns.yaml 
+  686  kubectl get namespace
+  687  kubectl get namespaces
+  688  clear
+  689  kubectl create -f skydns-svc.yaml 
+  690  kubectl get se
+  691  vi skydns-svc.yaml 
+  692  kubectl create -f skydns-svc.yaml 
+  693  ifconfig 
+  694  vi skydns-svc.yaml 
+  695  kubectl create -f skydns-svc.yaml 
+  696  vi skydns-svc.yaml 
+  697  kubectl create -f skydns-svc.yaml 
+  698  vi skydns-svc.yaml 
+  699  kubectl create -f skydns-svc.yaml 
+  700  vi skydns-svc.yaml 
+  701  kubectl create -f skydns-svc.yaml 
+  702  kubectl get se
+  703  kubectl get se --namespace=kube-system
+  704  kubectl delete -f skydns-svc.yaml 
+  705  kubectl get se --namespace=kube-system
+  706  vi /etc/kubernetes/apiserver 
+  707  vi skydns-svc.yaml 
+  708  clear
+  709  kubectl get no
+  710  kubectl describe kube-node1
+  711  kubectl get kube-node1
+  712  kubectl describe kube-node1
+  713  history 
+  714  kubectl describe node kube-node1
+  715  kubectl describe node kube-node2
+  716  kubectl get no
+  717  clear
+  718  kubectl create -f skydns-svc.yaml 
+  719  kubectl get se --namespace=kube-system
+  720  ping 10.254.0.10
+  721  kubectl create -f skydns-rc.yaml 
+  722  kubectl get po --namespace=kube-system
+  723  kubectl get po 
+  724  kubectl get po --namespace=kube-system
+  725  vi skydns-rc.yaml 
+  726  kubectl get po --namespace=kube-system
+  727  kubectl get se --namespace=kube-system
+  728  ping 10.254.0.10
+  729  kubectl get se --namespace=kube-system
+  730  kubectl get po --namespace=kube-system
+  731  kubectl describe po kube-dns-v8-iwnki --namespace=kube-system
+  732  kubectl get po --namespace=kube-system
+  733  kubectl delete -f skydns-rc.yaml 
+  734  kubectl get po --namespace=kube-system
+  735  kubectl get no
+  736  clear
+  737  vi skydns-svc.yaml 
+  738  vi skydns-sr
+  739  vi skydns-rc.yaml 
+  740  rpm -qa | grep etcd
+  741  rpm -ql etcd
+  742  ls -la /var/lib/etcd/
+  743  ls -la /var/lib/etcd/default.etcd/
+  744  ls -la /var/lib/etcd/default.etcd/member/wal/
+  745  clear
+  746  vi skydns-rc.yaml 
+  747  kubectl get po --namespace=kube-system
+  748  kubectl get pse --namespace=kube-system
+  749  kubectl get se --namespace=kube-system
+  750  kubectl create -f skydns-rc.yaml 
+  751  kubectl get po --namespace=kube-system
+  752  kubectl get no
+  753  kubectl get po --namespace=kube-system
+  754  kubectl delete -f skydns-rc.yaml 
+  755  vi skydns-rc.yaml 
+  756  clear
+  757  kubectl create -f skydns-rc.yaml 
+  758  kubectl get po --namespace=kube-system
+  759  kubectl describe po kube-dns-v8-cw6g9
+  760  kubectl describe po kube-dns-v8-cw6g9 --namespace=kube-system
+  761  kubectl delete -f skydns-rc.yaml 
+  762  vi skydns-rc.yaml 
+  763  clear
+  764  kubectl create -f skydns-rc.yaml 
+  765  vi skydns-rc.yaml 
+  766  kubectl create -f skydns-rc.yaml 
+  767  kubectl get po --namespace=kube-system
+  768  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  769  kubectl get po --namespace=kube-system
+  770  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  771  kubectl get po --namespace=kube-system
+  772  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  773  kubectl get po --namespace=kube-system
+  774  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  775  kubectl get po --namespace=kube-system
+  776  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  777  kubectl get po --namespace=kube-system
+  778  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  779  kubectl get po --namespace=kube-system
+  780  kubectl describe po kube-dns-v10-zwvtu --namespace=kube-system
+  781  kubectl delete -f skydns-rc.yaml 
+  782  vi skydns-svc.yaml 
+  783  clear
+  784  kubectl create -f skydns-rc.yaml 
+  785  kubectl get po --namespace=kube-system
+  786  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  787  clear
+  788  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  789  kubectl get po --namespace=kube-system
+  790  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  791  kubectl get po --namespace=kube-system
+  792  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  793  kubectl get po --namespace=kube-system
+  794  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  795  kubectl get po --namespace=kube-system
+  796  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  797  kubectl get po --namespace=kube-system
+  798  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  799  kubectl get po --namespace=kube-system
+  800  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  801  kubectl get po --namespace=kube-system
+  802  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  803  kubectl get se --namespace=kube-system
+  804  kubectl get se
+  805  vi skydns-rc.yaml 
+  806  kubectl get po --namespace=kube-system
+  807  kubectl describe po kube-dns-v10-ttyw4 --namespace=kube-system
+  808  kubectl delete -f skydns-rc.yaml 
+  809  clear
+  810  vi skydns-rc.yaml 
+  811  kubectl create -f skydns-rc.yaml 
+  812  kubectl get po --namespace=kube-system
+  813  kubectl describe po kube-dns-v10-mpfm9 --namespace=kube-system
+  814  kubectl get po --namespace=kube-system
+  815  kubectl describe po kube-dns-v10-mpfm9 --namespace=kube-system
+  816  kubectl get po --namespace=kube-system
+  817  kubectl describe po kube-dns-v10-mpfm9 --namespace=kube-system
+  818  kubectl get po --namespace=kube-system
+  819  kubectl describe po kube-dns-v10-mpfm9 --namespace=kube-system
+  820  kubectl get po --namespace=kube-system
+  821  kubectl describe po kube-dns-v10-mpfm9 --namespace=kube-system
+  822  kubectl get po --namespace=kube-system
+  823  kubectl delete -f skydns-rc.yaml 
+  824  clear
+  825  vi skydns-rc.yaml 
+  826  cp skydns-rc.yaml skydns-rc.yaml.nw
+  827  vi skydns-rc.yaml 
+  828  kubectl delete -f skydns-svc.yaml 
+  829  kubectl get po --namespace=kube-system
+  830  kubectl get se --namespace=kube-system
+  831  vi skydns-svc.yaml 
+  832  vi desc se 
+  833  kubectl desc se
+  834  kubectl describe se
+  835  kubectl describe se kubernetes
+  836  clear
+  837  vi skydns-svc.yaml 
+  838  vi skydns-rc.yaml
+  839  clear
+  840  kubectl create -f skydns-svc.yaml 
+  841  kubectl get se
+  842  clear
+  843  kubectl create -f skydns-rc.yaml 
+  844  kubectl get po
+  845  kubectl logs kube-dns-v10-20vht
+  846  kubectl describe kube-dns-v10-20vht
+  847  kubectl describe po kube-dns-v10-20vht
+  848  kubectl get po
+  849  kubectl describe po kube-dns-v10-20vht
+  850  kubectl get po
+  851  kubectl describe po kube-dns-v10-20vht
+  852  kubectl get po
+  853  kubectl describe po kube-dns-v10-20vht
+  854  kubectl delete -f skydns-rc.yaml 
+  855  kubectl get po
+  856  kubectl get se
+  857  clear
+  858  vi skydns-rc.yaml
+  859  kubectl cluster-info 
+  860  vi skydns-rc.yaml
+  861  cp skydns-rc.yaml etcd-rc.yaml
+  862  vi etcd-rc.yaml 
+  863  kubectl create -f etcd-rc.yaml 
+  864  kubectl get po
+  865  kubectl describe etcd-0rufj
+  866  kubectl describe po etcd-0rufj
+  867  kubectl delete -f etcd-rc.yaml 
+  868  clear
+  869  vi etcd-rc.yaml 
+  870  kubectl create -f etcd-rc.yaml 
+  871  kubectl get po
+  872  kubectl describe po etcd-7ujlr 
+  873  kubectl get po
+  874  kubectl describe po etcd-7ujlr 
+  875  kubectl get po
+  876  kubectl delete -f etcd-rc.yaml 
+  877  clear
+  878  ci skydns-rc.yaml
+  879  bi skydns-rc.yaml
+  880  vi skydns-rc.yaml
+  881  kubectl get se
+  882  clear
+  883  kubectl create -f skydns-rc.yaml 
+  884  kubectl get po
+  885  kubectl describe po kube-dns-v10-ormzf 
+  886  kubectl get po
+  887  kubectl describe po kube-dns-v10-ormzf 
+  888  clear
+  889  kubectl get po
+  890  vi busybox.yaml
+  891  kubectl create -f busybox.yaml 
+  892  kubectl get po
+  893  kubectl exec busybox -- nslookup kubernetes
+  894  kubectl get se
+  895  kubectl exec busybox -- nslookup kube-dns
+  896  cd ..
+  897  ls
+  898  cd kubernetes-java-sample/
+  899  ls
+  900  ls -latr
+  901  vi wildfly-service.json
+  902  kubectl create -f wildfly-service.json 
+  903  kubectl get se
+  904  kubectl exec busybox -- nslookup wildfly-service
+  905  kubectl delete -f wildfly-service.json 
+  906  cd ../
+  907  cd skydns/
+  908  ls
+  909  kubectl delete -f busybox.yaml 
+  910  kubectl delete -f skydns-rc.yaml 
+  911  kubectl delete -f skydns-svc.yaml 
+  912  kubectl get se
+  913  kubectl get po
+  914  shutdown -h now
+  915  clear
+  916  df -kh
+  917  docker images
+  918  ls
+  919  ls -la kubernetes/
+  920  history > history.txt 

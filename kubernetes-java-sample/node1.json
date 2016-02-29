@@ -1,0 +1,49 @@
+{
+    "kind": "Node",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "kube-node1.example.com",
+        "selfLink": "/api/v1/nodes/kube-node1.example.com",
+        "uid": "4fa172ae-87a9-11e5-916b-525400efc1a4",
+        "resourceVersion": "36567",
+        "creationTimestamp": "2015-11-10T12:48:15Z",
+        "labels": {
+            "kubernetes.io/hostname": "kube-node1.example.com"
+        }
+    },
+    "spec": {
+        "externalID": "kube-node1.example.com"
+    },
+    "status": {
+        "capacity": {
+            "cpu": "1",
+            "memory": "1017096Ki",
+            "pods": "40"
+        },
+        "conditions": [
+            {
+                "type": "Ready",
+                "status": "True",
+                "lastHeartbeatTime": "2015-12-23T16:32:38Z",
+                "lastTransitionTime": "2015-12-23T16:03:37Z",
+                "reason": "kubelet is posting ready status"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "LegacyHostIP",
+                "address": "192.168.124.11"
+            }
+        ],
+        "nodeInfo": {
+            "machineID": "f012f64aba23dd48ab21d843d8102f59",
+            "systemUUID": "F012F64A-BA23-DD48-AB21-D843D8102F59",
+            "bootID": "a49b6199-b0be-4b2b-9301-aa4f649827eb",
+            "kernelVersion": "3.10.0-229.20.1.el7.x86_64",
+            "osImage": "Employee SKU",
+            "containerRuntimeVersion": "docker://1.8.2",
+            "kubeletVersion": "v1.0.3.34+b9a88a7d0e357b",
+            "kubeProxyVersion": "v1.0.3.34+b9a88a7d0e357b"
+        }
+    }
+}

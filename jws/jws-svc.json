@@ -1,0 +1,26 @@
+{
+    "apiVersion": "v1",
+    "kind": "Service",
+    "metadata": {
+        "name": "tomcat-backend",
+        "namespace": "default",
+        "labels": {
+            "name": "tomcat-backend"
+        }
+    },
+    "spec": {
+        "selector": {
+            "app": "jws"
+        },
+        "ports": [
+            {
+                "protocol": "TCP",
+                "port": 8080
+            }
+        ],
+        "deprecatedPublicIPs": [
+            "192.168.100.11", "192.168.100.12"
+        ]
+    }
+}
+
